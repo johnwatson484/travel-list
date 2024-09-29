@@ -1,6 +1,6 @@
 services:
-  hapi-template-ts:
+  travel-list:
     extends:
       file: docker-compose.override.yaml
-      service: hapi-template-ts
+      service: travel-list
     command: npm run start:debug

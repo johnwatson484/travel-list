@@ -1,0 +1,6 @@
+{{- include "helm-library.configmap" (list . "travel-list.configmap") -}}
+{{- define "travel-list.configmap" -}}
+data:
+  PORT: {{ .Values.container.port | quote }}
+  NODE_ENV: {{ .Values.configMap.environment | quote }}
+{{- end -}}

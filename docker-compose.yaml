@@ -1,5 +1,5 @@
 services:
-  hapi-template-ts:
+  travel-list:
     build: .
-    image: hapi-template-ts
-    container_name: hapi-template-ts
+    image: travel-list
+    container_name: travel-list

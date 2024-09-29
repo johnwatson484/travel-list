@@ -1,0 +1,3 @@
+{{- include "helm-library.cluster-ip-service" (list . "travel-list.cluster-ip-service") -}}
+{{- define "travel-list.cluster-ip-service" -}}
+{{- end -}}
