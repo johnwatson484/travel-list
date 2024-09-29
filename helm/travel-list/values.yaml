@@ -3,18 +3,18 @@ port: &port 3000
 container:
   image: travel-list
   port: *port
-  resourceTier: M
+  resourceTier: S
 
 configMap:
   environment: production
 
 secret:
-  apiKey: secret-value
+  secretsPath: /travel-list
 
 deployment: {}
 
 ingress:
-  host: example.com
+  host: travel-list.lynxmagnus.com
 
 readinessProbe:
   httpGet:
