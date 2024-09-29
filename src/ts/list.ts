@@ -45,6 +45,9 @@ const items: Item[] = [
   { name: 'Purse', workOnly: false },
   { name: 'Phone', workOnly: false },
   { name: 'Phone charger x 2', workOnly: false },
+  { name: 'Eye cream', workOnly: false },
+  { name: 'Talcum powder', workOnly: false },
+  { name: 'Slippers', workOnly: false },
 ]
 
 function getList (): List {
