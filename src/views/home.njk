@@ -5,7 +5,7 @@
     {% for listItem in list.items %}
     <li class="list-group-item">
       <input class="form-check-input me-1" type="checkbox" value="{{ listItem.completed }}" id="{{ listItem.id }}">
-      <label class="form-check-label" for="{{ listItem.id }}">{{ listItem.name}}</label>
+      <label class="form-check-label" for="{{ listItem.id }}">{{ listItem.name}}{% if listItem.workOnly %} <i class="bi bi-briefcase-fill"></i>{% endif %}</label>
     </li>
     {% endfor %}
   </ul>

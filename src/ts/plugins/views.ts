@@ -34,6 +34,7 @@ const plugin: any = {
     context: {
       assetPath: '/assets',
       appName: config.get('appName'),
+      currentYear: new Date().getUTCFullYear()
     },
   },
 }
