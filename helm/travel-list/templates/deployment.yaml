@@ -1,3 +1,0 @@
-{{- include "helm-library.deployment" (list . "travel-list.deployment") -}}
-{{- define "travel-list.deployment" -}}
-{{- end -}}

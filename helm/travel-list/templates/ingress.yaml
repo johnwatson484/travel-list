@@ -1,3 +1,0 @@
-{{- include "helm-library.ingress" (list . "travel-list.ingress") -}}
-{{- define "travel-list.ingress" -}}
-{{- end -}}
